@@ -7,6 +7,24 @@ hr {
   height: 2px !important;
 }
 
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: #654120;
+  font-weight: 600;
+}
+
+.active {
+  font-weight: 600;
+}
+
+.josefina {
+  color: #654120;
+  font-family: "Josefin Slab", serif !important;
+}
+
 .img-home {
   display: block;
   margin: 0 auto;
