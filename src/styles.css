@@ -1,0 +1,14 @@
+body {
+  background-color: #f9f7eb;
+}
+
+hr {
+  background-color: #f2d091;
+  height: 2px !important;
+}
+
+.img-home {
+  display: block;
+  margin: 0 auto;
+  max-width: 140px;
+}
