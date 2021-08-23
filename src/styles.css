@@ -1,19 +1,24 @@
+@font-face {
+  font-family: "Dreamgirls";
+  src: url(/font/dreamgirls.woff);
+  font-style: serif;
+}
+
 body {
   background-color: #f9f7eb;
 }
 
 hr {
   background-color: #f2d091;
-  height: 2px !important;
 }
 
 a {
+  color: #654120;
   text-decoration: none;
 }
 
 a:hover {
-  color: #654120;
-  font-weight: 600;
+  color: #f2d091;
 }
 
 .active {
@@ -29,4 +34,11 @@ a:hover {
   display: block;
   margin: 0 auto;
   max-width: 140px;
+}
+
+#header {
+  color: #654120;
+  font-family: Dreamgirls, serif;
+  line-height: 70px;
+  font-size: 70px;
 }

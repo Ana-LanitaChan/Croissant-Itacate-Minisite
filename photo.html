@@ -18,7 +18,7 @@
   <body>
     <!--Top Container-->
     <div class="container">
-      <a href="#">
+      <a href="/index.html">
         <img
           src="/images/itacatemx.png"
           alt="Itacate Mx"
@@ -27,22 +27,72 @@
       </a>
       <hr />
     </div>
-    <!--Main Container-->
-    <div class="container"></div>
-    <!--Menu Container-->
+    <!--Center Container-->
     <div class="container">
-      <hr />
-      <div class="d-flex justify-content-center">
-        <div class="col-1 text-center">
-          <a href="/index.html" class="josefina">Home</a>
-        </div>
-        <div class="col-1 text-center border-start border-end border-warning">
-          <a href="/photo.html" class="josefina active">Photo</a>
-        </div>
-        <div class="col-1 text-center">
-          <a href="/contact.html" class="josefina">Contact</a>
+      <!--Carousel-->
+      <div class="row">
+        <div
+          id="carouselExampleControls"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                src="/images/img_ita_01.png"
+                class="d-block img-fluid rounded-2"
+                alt="..."
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="/images/img_ita_02.png"
+                class="d-block img-fluid rounded-2"
+                alt="..."
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="/images/img_ita_03.png"
+                class="d-block img-fluid rounded-2"
+                alt="..."
+              />
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleControls"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleControls"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
         </div>
       </div>
+      <div class="row mt-4 mb-4">
+        <p class="josefina text-center bg-white p-4">
+          You can check more pics on instagram looking for #itacates #tepozltan
+        </p>
+      </div>
+    </div>
+    <!--Menu Container-->
+    <div class="container text-center mb-5">
+      <hr />
+      <span class="josefina">
+        <a href="/index.html" class="josefina">Home</a> |
+        <a href="/photo.html" class="josefina active">Photo</a> |
+        <a href="/contact.html" class="josefina">Contact</a>
+      </span>
     </div>
     <!--Bootstrap JS-->
     <script
